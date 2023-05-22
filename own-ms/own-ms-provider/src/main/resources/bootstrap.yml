@@ -1,0 +1,14 @@
+server:
+  port: 10010
+
+spring:
+  application:
+    name: ms-provider
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.212:8848
+        namespace: abcd5f15-8194-45f6-bc9b-f9bc313275b6
+        username: nacos
+        password: nacos
