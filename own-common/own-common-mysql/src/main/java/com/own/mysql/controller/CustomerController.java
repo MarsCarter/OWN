@@ -1,4 +1,4 @@
-package com.own.project.controller;
+package com.own.mysql.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2023-05-22
  */
 @RestController
-@RequestMapping("/project/customer")
+@RequestMapping("/customer")
 public class CustomerController {
 
 }

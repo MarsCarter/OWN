@@ -1,4 +1,4 @@
-package com.own.project.model;
+package com.own.mysql.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
@@ -18,8 +18,6 @@ import lombok.experimental.Accessors;
  * @since 2023-05-22
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 public class Customer implements Serializable {
 
     private static final long serialVersionUID = 1L;

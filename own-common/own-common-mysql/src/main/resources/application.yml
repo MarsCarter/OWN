@@ -1,0 +1,15 @@
+server:
+  port: 10011
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/own?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
