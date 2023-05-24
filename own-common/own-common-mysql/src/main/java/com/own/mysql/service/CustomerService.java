@@ -1,7 +1,7 @@
 package com.own.mysql.service;
 
-import com.own.generate.model.Customer;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.own.mysql.model.Customer;
 
 /**
  *  服务类接口

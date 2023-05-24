@@ -1,9 +1,10 @@
 package com.own.mysql.service.impl;
 
-import com.own.generate.model.Customer;
-import com.own.generate.mapper.CustomerMapper;
-import com.own.generate.service.CustomerService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.own.mysql.mapper.CustomerMapper;
+import com.own.mysql.model.Customer;
+import com.own.mysql.service.CustomerService;
 import org.springframework.stereotype.Service;
 
 /**

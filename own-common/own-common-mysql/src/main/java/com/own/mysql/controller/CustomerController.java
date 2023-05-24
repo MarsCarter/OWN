@@ -1,11 +1,11 @@
 package com.own.mysql.controller;
 
-import com.own.generate.model.Customer;
+import com.own.mysql.model.Customer;
+import com.own.mysql.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.own.generate.service.CustomerService;
 
 import java.util.Date;
 
@@ -22,15 +22,21 @@ public class CustomerController {
     @Autowired
     private CustomerService service;
 
-    @PostMapping("/save")
+    @GetMapping("/save")
     public boolean save(){
         Customer customer = new Customer();
         customer.setAccount("cm06285");
         customer.setName("mars");
+        customer.setPassword("123456");
         customer.setAge(20);
         customer.setCreateTs(new Date());
         customer.setUpdateTs(new Date());
         return  service.save(customer);
+    }
+
+    @GetMapping("/list")
+    public String list(){
+        return service.list().toString();
     }
 
 }
