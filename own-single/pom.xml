@@ -9,11 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>own-modules</artifactId>
+    <artifactId>own-single</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>own-modules-generate</module>
+        <module>own-single-generate</module>
     </modules>
 
     <description> OWN System Single Service Part</description>
