@@ -67,8 +67,21 @@
         <module>own-auth</module>
         <module>own-common</module>
         <module>own-gateway</module>
-        <module>own-modules</module>
         <module>own-ms</module>
+        <module>own-single</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
