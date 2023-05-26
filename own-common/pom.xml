@@ -34,6 +34,7 @@
     <modules>
         <module>own-common-mysql</module>
         <module>own-common-mongo</module>
+        <module>own-common-redis</module>
     </modules>
 
     <description> OWN System Common Service Part</description>

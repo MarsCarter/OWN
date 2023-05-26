@@ -4,7 +4,6 @@ server:
 spring:
   application:
     name: common-mysql
-
   cloud:
     nacos:
       discovery:
@@ -12,6 +11,7 @@ spring:
         namespace: abcd5f15-8194-45f6-bc9b-f9bc313275b6
         username: nacos
         password: nacos
+
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
