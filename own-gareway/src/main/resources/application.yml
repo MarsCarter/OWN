@@ -1,0 +1,21 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: own-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: to-mysql
+          uri: lb://common-mysql
+          predicates:
+            - Path=/mysql/**
+        - id: to-mongo
+          uri: lb://common-mongo
+          predicates:
+            - Path=/mongo/**

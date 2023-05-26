@@ -90,10 +90,9 @@
         <module>own-api</module>
         <module>own-auth</module>
         <module>own-common</module>
-        <module>own-gateway</module>
         <module>own-ms</module>
         <module>own-single</module>
-        <module>own-auth/own-auth-common</module>
+        <module>own-gareway</module>
     </modules>
 
     <build>

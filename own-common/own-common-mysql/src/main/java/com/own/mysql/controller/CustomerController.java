@@ -16,7 +16,7 @@ import java.util.Date;
  * @since 2023-05-24
  */
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/mysql")
 public class CustomerController {
 
     @Autowired
