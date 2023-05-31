@@ -116,7 +116,6 @@
         <module>own-ms</module>
         <module>own-single</module>
         <module>own-gareway</module>
-        <module>own-common/own-common-mqtt</module>
     </modules>
 
     <build>
